@@ -32,7 +32,7 @@ function GalleryCarousel() {
     }, []);
   
   return (
-    <div className={`${show ? " opacity-100" : "opacity-0"} duration-500`}>
+    <div className={`${show ? " opacity-100" : "opacity-0"} duration-200`}>
       <Carousel
         swipeable={false}
         draggable={false}
